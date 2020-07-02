@@ -1,0 +1,68 @@
+
+ 
+
+[1]
+
+1.Write a python program to create a tuple
+
+[1]
+
+my_tuple = ("hello",)
+print(my_tuple)
+
+2.write a python program to create a tuple with different data types.
+
+# Different types of tuples
+
+# Empty tuple
+my_tuple = ()
+print(my_tuple)
+
+# Tuple having integers
+my_tuple = (1, 2, 3)
+print(my_tuple)
+
+# tuple with mixed datatypes
+my_tuple = (1, "Hello", 3.4)
+print(my_tuple)
+
+# nested tuple
+my_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
+print(my_tuple)
+3.write a python program to convert a tuple to a string.
+
+[ ]
+ tup = ('p', 'y', 't', 'h', 'o','n')
+str =  ''.join(tup)
+print(str)
+
+4.write a python program to slice a tuple.
+
+[ ]
+ tuplex = tuple("HELLO WORLD")
+print(tuplex)
+ _slice = tuplex[2:9:2]
+print(_slice) 
+ _slice = tuplex[::4]
+print(_slice)
+ _slice = tuplex[9:2:-4]
+print(_slice)
+5.Write a python program to the length of a tuple.
+
+[ ]
+ tuplex = tuple("python programming")
+print(tuplex)
+print(len(tuplex))
+
+6.write a python program to reverse a tuple
+
+[ ]
+ x = ("python")
+y = reversed(x)
+print(tuple(y))
+7.write a python program to convert a list to a tuple.
+
+[ ]
+ listx = [5, 10, 7, 4, 15, 3]
+tuplex = tuple(listx)
+print(tuplex)
